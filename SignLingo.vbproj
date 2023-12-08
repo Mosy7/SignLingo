@@ -208,6 +208,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Favorites.resx">
       <DependentUpon>Favorites.vb</DependentUpon>
     </EmbeddedResource>
@@ -437,6 +440,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Untitled design.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image - 2023-12-08T154402.233.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image - 2023-12-08T154439.155.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image - 2023-12-08T154536.025.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image - 2023-12-08T154629.469.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image - 2023-12-08T154751.945.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image - 2023-12-08T154959.100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image - 2023-12-08T155021.555.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image - 2023-12-08T155052.486.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image - 2023-12-08T155203.439.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image - 2023-12-08T155203.4391.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image - 2023-12-08T155357.796.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
