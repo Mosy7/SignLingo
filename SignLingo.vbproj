@@ -178,6 +178,12 @@
     <Compile Include="Form6.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form7.Designer.vb">
+      <DependentUpon>Form7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form8.Designer.vb">
       <DependentUpon>Form8.vb</DependentUpon>
     </Compile>
@@ -231,6 +237,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form6.resx">
       <DependentUpon>Form6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form8.resx">
       <DependentUpon>Form8.vb</DependentUpon>
@@ -473,6 +482,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\image - 2023-12-08T155357.796.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image - 2023-12-08T210659.807.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image - 2023-12-08T210802.831.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image - 2023-12-08T210855.017.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image - 2023-12-08T213142.839.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -253,6 +253,46 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property image___2023_12_08T210659_807() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("image - 2023-12-08T210659.807", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property image___2023_12_08T210802_831() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("image - 2023-12-08T210802.831", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property image___2023_12_08T210855_017() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("image - 2023-12-08T210855.017", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property image___2023_12_08T213142_839() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("image - 2023-12-08T213142.839", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property imageeeee() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("imageeeee", resourceCulture)
