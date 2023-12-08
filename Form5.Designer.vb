@@ -88,49 +88,49 @@ Partial Class Form5
         Me.pnlphrases = New System.Windows.Forms.Panel()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.cmbphrases = New System.Windows.Forms.ComboBox()
-        Me.pbimage = New System.Windows.Forms.PictureBox()
         Me.Label32 = New System.Windows.Forms.Label()
         Me.Panel11 = New System.Windows.Forms.Panel()
         Me.lbldescription = New System.Windows.Forms.Label()
         Me.Label35 = New System.Windows.Forms.Label()
-        Me.Label36 = New System.Windows.Forms.Label()
-        Me.Label37 = New System.Windows.Forms.Label()
         Me.lbltitle = New System.Windows.Forms.Label()
         Me.Label23 = New System.Windows.Forms.Label()
         Me.Panel9 = New System.Windows.Forms.Panel()
         Me.Label24 = New System.Windows.Forms.Label()
         Me.Label25 = New System.Windows.Forms.Label()
-        Me.Label26 = New System.Windows.Forms.Label()
-        Me.Label27 = New System.Windows.Forms.Label()
         Me.Label28 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Panel8 = New System.Windows.Forms.Panel()
-        Me.Label30 = New System.Windows.Forms.Label()
-        Me.Label29 = New System.Windows.Forms.Label()
         Me.pnldescription = New System.Windows.Forms.Panel()
-        Me.picture = New System.Windows.Forms.PictureBox()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.btndone = New System.Windows.Forms.Button()
         Me.lbldesc = New System.Windows.Forms.Label()
         Me.addtofave = New System.Windows.Forms.Label()
-        Me.Label16 = New System.Windows.Forms.Label()
         Me.lblLetter = New System.Windows.Forms.Label()
+        Me.picture = New System.Windows.Forms.PictureBox()
+        Me.Label16 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.pbimage = New System.Windows.Forms.PictureBox()
+        Me.Label36 = New System.Windows.Forms.Label()
+        Me.Label37 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label30 = New System.Windows.Forms.Label()
+        Me.Label29 = New System.Windows.Forms.Label()
+        Me.Label26 = New System.Windows.Forms.Label()
+        Me.Label27 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.pnlnumbers.SuspendLayout()
         Me.pnlwords.SuspendLayout()
         Me.pnlphrases.SuspendLayout()
-        CType(Me.pbimage, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel11.SuspendLayout()
         Me.Panel9.SuspendLayout()
         Me.Panel8.SuspendLayout()
         Me.pnldescription.SuspendLayout()
-        CType(Me.picture, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel4.SuspendLayout()
+        CType(Me.picture, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbimage, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'btnalphabet
@@ -1011,14 +1011,6 @@ Partial Class Form5
         Me.cmbphrases.Size = New System.Drawing.Size(295, 21)
         Me.cmbphrases.TabIndex = 17
         '
-        'pbimage
-        '
-        Me.pbimage.Location = New System.Drawing.Point(23, 65)
-        Me.pbimage.Name = "pbimage"
-        Me.pbimage.Size = New System.Drawing.Size(337, 295)
-        Me.pbimage.TabIndex = 16
-        Me.pbimage.TabStop = False
-        '
         'Label32
         '
         Me.Label32.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(74, Byte), Integer), CType(CType(173, Byte), Integer))
@@ -1056,22 +1048,6 @@ Partial Class Form5
         Me.Label35.Size = New System.Drawing.Size(118, 20)
         Me.Label35.TabIndex = 3
         Me.Label35.Text = "add to favorites"
-        '
-        'Label36
-        '
-        Me.Label36.Image = Global.SignLingo.My.Resources.Resources.Untitled_design__39_
-        Me.Label36.Location = New System.Drawing.Point(238, 229)
-        Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(62, 56)
-        Me.Label36.TabIndex = 4
-        '
-        'Label37
-        '
-        Me.Label37.Image = Global.SignLingo.My.Resources.Resources.Untitled_design__40_
-        Me.Label37.Location = New System.Drawing.Point(15, 248)
-        Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(39, 37)
-        Me.Label37.TabIndex = 2
         '
         'lbltitle
         '
@@ -1126,22 +1102,6 @@ Partial Class Form5
         Me.Label25.TabIndex = 3
         Me.Label25.Text = "add to favorites"
         '
-        'Label26
-        '
-        Me.Label26.Image = Global.SignLingo.My.Resources.Resources.Untitled_design__39_
-        Me.Label26.Location = New System.Drawing.Point(238, 229)
-        Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(62, 56)
-        Me.Label26.TabIndex = 4
-        '
-        'Label27
-        '
-        Me.Label27.Image = Global.SignLingo.My.Resources.Resources.Untitled_design__40_
-        Me.Label27.Location = New System.Drawing.Point(15, 248)
-        Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(39, 37)
-        Me.Label27.TabIndex = 2
-        '
         'Label28
         '
         Me.Label28.BackColor = System.Drawing.Color.Transparent
@@ -1178,24 +1138,6 @@ Partial Class Form5
         Me.Panel8.TabIndex = 30
         Me.Panel8.Visible = False
         '
-        'Label30
-        '
-        Me.Label30.BackColor = System.Drawing.SystemColors.Window
-        Me.Label30.Image = Global.SignLingo.My.Resources.Resources.Untitled_design__44_
-        Me.Label30.Location = New System.Drawing.Point(272, 24)
-        Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(24, 23)
-        Me.Label30.TabIndex = 17
-        '
-        'Label29
-        '
-        Me.Label29.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(74, Byte), Integer), CType(CType(173, Byte), Integer))
-        Me.Label29.Image = Global.SignLingo.My.Resources.Resources.Untitled_design__45_
-        Me.Label29.Location = New System.Drawing.Point(14, 65)
-        Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(292, 294)
-        Me.Label29.TabIndex = 15
-        '
         'pnldescription
         '
         Me.pnldescription.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
@@ -1208,15 +1150,6 @@ Partial Class Form5
         Me.pnldescription.Size = New System.Drawing.Size(725, 380)
         Me.pnldescription.TabIndex = 31
         Me.pnldescription.Visible = False
-        '
-        'picture
-        '
-        Me.picture.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(74, Byte), Integer), CType(CType(173, Byte), Integer))
-        Me.picture.Location = New System.Drawing.Point(48, 65)
-        Me.picture.Name = "picture"
-        Me.picture.Size = New System.Drawing.Size(299, 294)
-        Me.picture.TabIndex = 15
-        Me.picture.TabStop = False
         '
         'Panel4
         '
@@ -1262,14 +1195,6 @@ Partial Class Form5
         Me.addtofave.TabIndex = 3
         Me.addtofave.Text = "add to favorites"
         '
-        'Label16
-        '
-        Me.Label16.Image = Global.SignLingo.My.Resources.Resources.Untitled_design__40_
-        Me.Label16.Location = New System.Drawing.Point(15, 248)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(39, 37)
-        Me.Label16.TabIndex = 2
-        '
         'lblLetter
         '
         Me.lblLetter.AutoSize = True
@@ -1281,6 +1206,23 @@ Partial Class Form5
         Me.lblLetter.TabIndex = 8
         Me.lblLetter.Text = "ALPHABET"
         '
+        'picture
+        '
+        Me.picture.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(74, Byte), Integer), CType(CType(173, Byte), Integer))
+        Me.picture.Location = New System.Drawing.Point(48, 65)
+        Me.picture.Name = "picture"
+        Me.picture.Size = New System.Drawing.Size(299, 294)
+        Me.picture.TabIndex = 15
+        Me.picture.TabStop = False
+        '
+        'Label16
+        '
+        Me.Label16.Image = Global.SignLingo.My.Resources.Resources.Untitled_design__40_
+        Me.Label16.Location = New System.Drawing.Point(15, 248)
+        Me.Label16.Name = "Label16"
+        Me.Label16.Size = New System.Drawing.Size(39, 37)
+        Me.Label16.TabIndex = 2
+        '
         'Label6
         '
         Me.Label6.Image = Global.SignLingo.My.Resources.Resources.Untitled_design__38_
@@ -1288,6 +1230,30 @@ Partial Class Form5
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(53, 42)
         Me.Label6.TabIndex = 10
+        '
+        'pbimage
+        '
+        Me.pbimage.Location = New System.Drawing.Point(23, 65)
+        Me.pbimage.Name = "pbimage"
+        Me.pbimage.Size = New System.Drawing.Size(337, 295)
+        Me.pbimage.TabIndex = 16
+        Me.pbimage.TabStop = False
+        '
+        'Label36
+        '
+        Me.Label36.Image = Global.SignLingo.My.Resources.Resources.Untitled_design__39_
+        Me.Label36.Location = New System.Drawing.Point(238, 229)
+        Me.Label36.Name = "Label36"
+        Me.Label36.Size = New System.Drawing.Size(62, 56)
+        Me.Label36.TabIndex = 4
+        '
+        'Label37
+        '
+        Me.Label37.Image = Global.SignLingo.My.Resources.Resources.Untitled_design__40_
+        Me.Label37.Location = New System.Drawing.Point(15, 248)
+        Me.Label37.Name = "Label37"
+        Me.Label37.Size = New System.Drawing.Size(39, 37)
+        Me.Label37.TabIndex = 2
         '
         'Label3
         '
@@ -1304,6 +1270,40 @@ Partial Class Form5
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(91, 81)
         Me.Label1.TabIndex = 0
+        '
+        'Label30
+        '
+        Me.Label30.BackColor = System.Drawing.SystemColors.Window
+        Me.Label30.Image = Global.SignLingo.My.Resources.Resources.Untitled_design__44_
+        Me.Label30.Location = New System.Drawing.Point(272, 24)
+        Me.Label30.Name = "Label30"
+        Me.Label30.Size = New System.Drawing.Size(24, 23)
+        Me.Label30.TabIndex = 17
+        '
+        'Label29
+        '
+        Me.Label29.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(74, Byte), Integer), CType(CType(173, Byte), Integer))
+        Me.Label29.Image = Global.SignLingo.My.Resources.Resources.Untitled_design__45_
+        Me.Label29.Location = New System.Drawing.Point(14, 65)
+        Me.Label29.Name = "Label29"
+        Me.Label29.Size = New System.Drawing.Size(292, 294)
+        Me.Label29.TabIndex = 15
+        '
+        'Label26
+        '
+        Me.Label26.Image = Global.SignLingo.My.Resources.Resources.Untitled_design__39_
+        Me.Label26.Location = New System.Drawing.Point(238, 229)
+        Me.Label26.Name = "Label26"
+        Me.Label26.Size = New System.Drawing.Size(62, 56)
+        Me.Label26.TabIndex = 4
+        '
+        'Label27
+        '
+        Me.Label27.Image = Global.SignLingo.My.Resources.Resources.Untitled_design__40_
+        Me.Label27.Location = New System.Drawing.Point(15, 248)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(39, 37)
+        Me.Label27.TabIndex = 2
         '
         'Label9
         '
@@ -1352,7 +1352,6 @@ Partial Class Form5
         Me.pnlnumbers.ResumeLayout(False)
         Me.pnlwords.ResumeLayout(False)
         Me.pnlphrases.ResumeLayout(False)
-        CType(Me.pbimage, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel11.ResumeLayout(False)
         Me.Panel11.PerformLayout()
         Me.Panel9.ResumeLayout(False)
@@ -1361,9 +1360,10 @@ Partial Class Form5
         Me.Panel8.PerformLayout()
         Me.pnldescription.ResumeLayout(False)
         Me.pnldescription.PerformLayout()
-        CType(Me.picture, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel4.ResumeLayout(False)
         Me.Panel4.PerformLayout()
+        CType(Me.picture, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbimage, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

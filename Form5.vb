@@ -2256,4 +2256,8 @@ Public Class Form5
         Panel8.Hide()
         pnlphrases.Hide()
     End Sub
+
+    Private Sub pnldescription_Paint(sender As Object, e As PaintEventArgs) Handles pnldescription.Paint
+
+    End Sub
 End Class
